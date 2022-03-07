@@ -111,7 +111,7 @@ mod converter {
         }
     }
 
-    pub fn belas(val: &str) -> &'static str {
+    pub fn belas(val: &str) -> &str {
         match val {
            "11" => "sebelas",
            "12" => "dua belas",
